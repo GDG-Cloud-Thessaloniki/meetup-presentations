@@ -55,6 +55,7 @@ meetup-presentations/
 
 ## 🤝 Οδηγίες για Ομιλητές & Συνεισφορά / Speaker Guidelines & Contributing
 
+### 🇬🇷 Ελληνικά
 Εάν ήσασταν ομιλητής σε κάποιο από τα meetups μας ή θέλετε να προσθέσετε διορθώσεις και βελτιώσεις στον κώδικα:
 
 1. **Δημιουργία Branch / Fork:** Κάντε fork το αποθετήριο ή δημιουργήστε νέο branch (`git checkout -b feature/event-YYYY-MM-DD`).
@@ -67,6 +68,20 @@ meetup-presentations/
    - **ΜΗΝ ανεβάζετε ποτέ** πραγματικά API keys, μυστικά (secrets), κωδικούς πρόσβασης ή `.env` αρχεία.
    - Χρησιμοποιείτε αρχεία `.env.example` με dummy τιμές.
 6. **Pull Request:** Ανοίξτε ένα Pull Request με περιγραφή της ομιλίας σας και των αρχείων που προστίθενται.
+
+### 🇬🇧 English
+If you were a speaker at one of our meetups or would like to contribute improvements and code samples:
+
+1. **Create Branch / Fork:** Fork the repository or create a new branch (`git checkout -b feature/event-YYYY-MM-DD`).
+2. **Folder Naming:** Create a directory following the format `YYYY-MM-DD <Event-Title>`.
+3. **Presentation Naming:** Use the format `<Speaker-Name> - <Talk-Title>.(pdf|pptx)`.
+4. **Accompanying Code:** 
+   - Place code or demos in a dedicated subfolder (e.g., `code/` or `demo/`).
+   - Include a brief `README.md` with prerequisites and run instructions (e.g., `npm install`, `python -m venv ...`, `docker compose up`).
+5. ⚠️ **Security & Secrets (CRITICAL):**
+   - **NEVER commit** real API keys, secrets, credentials, or `.env` files.
+   - Always use `.env.example` files with dummy values.
+6. **Pull Request:** Open a Pull Request describing your session and the files included.
 
 ---
 
@@ -81,8 +96,13 @@ meetup-presentations/
 
 ## ⚠️ Αποποίηση Ευθύνης Κώδικα / Code & Safety Disclaimer
 
+### 🇬🇷 Ελληνικά
 - **Εκπαιδευτικός Σκοπός:** Όλος ο κώδικας, τα σενάρια (scripts) και οι παρουσιάσεις που φιλοξενούνται στο αποθετήριο προορίζονται **αποκλειστικά για εκπαιδευτικούς σκοπούς, μελέτη και πειραματισμό**. Παρέχονται «ως έχουν» (AS IS) και η εκτέλεσή τους γίνεται με δική σας ευθύνη.
 - **Αναφορά Ευπαθειών:** Βρήκατε εκτεθειμένα διαπιστευτήρια ή ευπάθεια ασφαλείας; **Μην ανοίξετε δημόσιο issue.** Ακολουθήστε τις οδηγίες στην [Πολιτική Ασφάλειας (SECURITY.md)](https://github.com/gdg-cloud-thessaloniki/.github/blob/main/SECURITY.md).
+
+### 🇬🇧 English
+- **Educational Purpose:** All source code, configuration scripts, and presentation decks hosted across this repository are provided **strictly for educational, research, and experimental purposes**. Everything is provided "AS IS", and execution is at your own risk.
+- **Vulnerability Reporting:** Found an exposed secret or security vulnerability? **Please do not open a public issue.** See our [Security Policy (SECURITY.md)](https://github.com/gdg-cloud-thessaloniki/.github/blob/main/SECURITY.md).
 
 ---
 
